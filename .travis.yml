@@ -21,6 +21,7 @@ script: "node $NODE_FLAGS tools/test.js $SCRIPT_FLAGS"
 branches:
   only:
     - master
+    - ppc64le
 cache:
   directories:
   - "$HOME/.npm"
