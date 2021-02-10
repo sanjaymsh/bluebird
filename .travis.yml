@@ -3,13 +3,29 @@ sudo: false
 matrix:
   include:
     - node_js: "0.10"
+      arch: amd64
     - node_js: "0.12"
+      arch: amd64
     - node_js: "4"
+      arch: amd64
     - node_js: "5"
+      arch: amd64
     - node_js: "6"
+      arch: amd64
     - node_js: "7"
+      arch: amd64
     - node_js: "8"
+      arch: amd64
     - node_js: "10"
+      arch: amd64
+    - node_js: "6"
+      arch: ppc64le
+    - node_js: "7"
+      arch: ppc64le
+    - node_js: "8"
+      arch: ppc64le
+    - node_js: "10"
+      arch: ppc64le
   fast_finish: true
 git:
   depth: 5
